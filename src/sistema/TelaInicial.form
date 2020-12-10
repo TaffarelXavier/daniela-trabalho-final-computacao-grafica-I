@@ -59,7 +59,7 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" max="-2" attributes="0"/>
-              <Component id="jPanel6" pref="580" max="32767" attributes="0"/>
+              <Component id="jPanel6" pref="598" max="32767" attributes="0"/>
               <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -338,11 +338,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButtonColorizacaoRed" min="-2" pref="75" max="-2" attributes="0"/>
+                      <Component id="jButtonColor_R" min="-2" pref="75" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButtonColorizacaoGreen" min="-2" pref="75" max="-2" attributes="0"/>
+                      <Component id="jButtonColor_G" min="-2" pref="75" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButtonColorizacaoBlue" min="-2" pref="75" max="-2" attributes="0"/>
+                      <Component id="jButtonColor_B" min="-2" pref="75" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -351,9 +351,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButtonColorizacaoRed" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jButtonColorizacaoGreen" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jButtonColorizacaoBlue" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jButtonColor_R" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jButtonColor_G" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jButtonColor_B" min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
@@ -361,7 +361,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButtonColorizacaoRed">
+            <Component class="javax.swing.JButton" name="jButtonColor_R">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="0" red="ff" type="rgb"/>
@@ -377,10 +377,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColorizacaoRedActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColor_RActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButtonColorizacaoGreen">
+            <Component class="javax.swing.JButton" name="jButtonColor_G">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="ff" red="0" type="rgb"/>
@@ -396,10 +396,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColorizacaoGreenActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColor_GActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButtonColorizacaoBlue">
+            <Component class="javax.swing.JButton" name="jButtonColor_B">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="0" red="0" type="rgb"/>
@@ -415,7 +415,7 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColorizacaoBlueActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColor_BActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>

@@ -51,9 +51,9 @@ public class TelaInicial extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jButton_1 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
-        jButtonColorizacaoRed = new javax.swing.JButton();
-        jButtonColorizacaoGreen = new javax.swing.JButton();
-        jButtonColorizacaoBlue = new javax.swing.JButton();
+        jButtonColor_R = new javax.swing.JButton();
+        jButtonColor_G = new javax.swing.JButton();
+        jButtonColor_B = new javax.swing.JButton();
         jLabelEditorOrg = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
@@ -204,39 +204,39 @@ public class TelaInicial extends javax.swing.JFrame {
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("FILTRO COLORIZAÇÃO"));
 
-        jButtonColorizacaoRed.setBackground(new java.awt.Color(255, 0, 0));
-        jButtonColorizacaoRed.setToolTipText("Definir Colorização");
-        jButtonColorizacaoRed.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jButtonColorizacaoRed.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButtonColorizacaoRed.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoRed.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoRed.addActionListener(new java.awt.event.ActionListener() {
+        jButtonColor_R.setBackground(new java.awt.Color(255, 0, 0));
+        jButtonColor_R.setToolTipText("Definir Colorização");
+        jButtonColor_R.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButtonColor_R.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButtonColor_R.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_R.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_R.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonColorizacaoRedActionPerformed(evt);
+                jButtonColor_RActionPerformed(evt);
             }
         });
 
-        jButtonColorizacaoGreen.setBackground(new java.awt.Color(0, 255, 0));
-        jButtonColorizacaoGreen.setToolTipText("Definir Colorização");
-        jButtonColorizacaoGreen.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jButtonColorizacaoGreen.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButtonColorizacaoGreen.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoGreen.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoGreen.addActionListener(new java.awt.event.ActionListener() {
+        jButtonColor_G.setBackground(new java.awt.Color(0, 255, 0));
+        jButtonColor_G.setToolTipText("Definir Colorização");
+        jButtonColor_G.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButtonColor_G.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButtonColor_G.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_G.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_G.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonColorizacaoGreenActionPerformed(evt);
+                jButtonColor_GActionPerformed(evt);
             }
         });
 
-        jButtonColorizacaoBlue.setBackground(new java.awt.Color(0, 0, 255));
-        jButtonColorizacaoBlue.setToolTipText("Definir Colorização");
-        jButtonColorizacaoBlue.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jButtonColorizacaoBlue.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButtonColorizacaoBlue.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoBlue.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButtonColorizacaoBlue.addActionListener(new java.awt.event.ActionListener() {
+        jButtonColor_B.setBackground(new java.awt.Color(0, 0, 255));
+        jButtonColor_B.setToolTipText("Definir Colorização");
+        jButtonColor_B.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButtonColor_B.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButtonColor_B.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_B.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButtonColor_B.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonColorizacaoBlueActionPerformed(evt);
+                jButtonColor_BActionPerformed(evt);
             }
         });
 
@@ -246,20 +246,20 @@ public class TelaInicial extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButtonColorizacaoRed, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonColor_R, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonColorizacaoGreen, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonColor_G, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonColorizacaoBlue, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonColor_B, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButtonColorizacaoRed, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonColorizacaoGreen, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonColorizacaoBlue, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButtonColor_R, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonColor_G, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonColor_B, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -379,7 +379,7 @@ public class TelaInicial extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 580, Short.MAX_VALUE)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 598, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -422,14 +422,16 @@ public class TelaInicial extends javax.swing.JFrame {
     }
 
     void ativarBotoesNoPainel(boolean disabled) {
+        jButton2.setEnabled(disabled);
+        jButton3.setEnabled(disabled);
         jButton_02.setEnabled(disabled);
         jButton_05.setEnabled(disabled);
         jButton_03.setEnabled(disabled);
         jButton_04.setEnabled(disabled);
         jButton_1.setEnabled(disabled);
-        jButtonColorizacaoRed.setEnabled(disabled);
-        jButtonColorizacaoGreen.setEnabled(disabled);
-        jButtonColorizacaoBlue.setEnabled(disabled);
+        jButtonColor_R.setEnabled(disabled);
+        jButtonColor_G.setEnabled(disabled);
+        jButtonColor_B.setEnabled(disabled);
     }
 
     private void jButton_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_02ActionPerformed
@@ -465,23 +467,23 @@ public class TelaInicial extends javax.swing.JFrame {
         drowImageInLabelEditor(bufferOriginal);
     }//GEN-LAST:event_jButton_1ActionPerformed
 
-    private void jButtonColorizacaoRedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColorizacaoRedActionPerformed
+    private void jButtonColor_RActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColor_RActionPerformed
         // TODO add your handling code here:
         bufferOut = new FiltrosCG_I().filtroColorizacao(buffer_In, 1);
         drowImageInLabelEditor(bufferOut);
-    }//GEN-LAST:event_jButtonColorizacaoRedActionPerformed
+    }//GEN-LAST:event_jButtonColor_RActionPerformed
 
-    private void jButtonColorizacaoBlueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColorizacaoBlueActionPerformed
+    private void jButtonColor_BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColor_BActionPerformed
         // TODO add your handling code here:
         bufferOut = new FiltrosCG_I().filtroColorizacao(buffer_In, 2);
         drowImageInLabelEditor(bufferOut);
-    }//GEN-LAST:event_jButtonColorizacaoBlueActionPerformed
+    }//GEN-LAST:event_jButtonColor_BActionPerformed
 
-    private void jButtonColorizacaoGreenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColorizacaoGreenActionPerformed
+    private void jButtonColor_GActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonColor_GActionPerformed
         // TODO add your handling code here:
         bufferOut = new FiltrosCG_I().filtroColorizacao(buffer_In, 3);
         drowImageInLabelEditor(bufferOut);
-    }//GEN-LAST:event_jButtonColorizacaoGreenActionPerformed
+    }//GEN-LAST:event_jButtonColor_GActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
@@ -499,6 +501,8 @@ public class TelaInicial extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         carregarImagemDefault();
+        jButton2.setEnabled(false);
+        jButton3.setEnabled(false);
         ativarBotoesNoPainel(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -546,9 +550,9 @@ public class TelaInicial extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButtonColorizacaoBlue;
-    private javax.swing.JButton jButtonColorizacaoGreen;
-    private javax.swing.JButton jButtonColorizacaoRed;
+    private javax.swing.JButton jButtonColor_B;
+    private javax.swing.JButton jButtonColor_G;
+    private javax.swing.JButton jButtonColor_R;
     private javax.swing.JButton jButton_02;
     private javax.swing.JButton jButton_03;
     private javax.swing.JButton jButton_04;
