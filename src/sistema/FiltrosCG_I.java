@@ -227,7 +227,7 @@ public class FiltrosCG_I {
 
                 ImageIO.write(buffer, "jpg", saida);
 
-                JOptionPane.showMessageDialog(null, "Imagem salva com sucesso", "Computação Gráfica I", 1);
+                JOptionPane.showMessageDialog(null, "Imagem salva com sucesso", "Sucesso", 1);
             } catch (IOException ex) {
 
             }
